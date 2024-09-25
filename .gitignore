@@ -1,0 +1,5 @@
+# macOS-specific ignores:
+.DS_Store
+
+# Lazy
+lazy-lock.json
