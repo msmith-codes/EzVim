@@ -1,3 +1,5 @@
+local config = require("config")
+print("working")
 require("neo-tree").setup({
     filesystem = {
         filtered_items = {
@@ -7,7 +9,7 @@ require("neo-tree").setup({
         follow_current_file = { enabled = true },
     },
     window = {
-        position = "left",
+        position = config.tree_side,
         width = 30,
     }
 })
