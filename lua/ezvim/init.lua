@@ -1,6 +1,7 @@
 require("ezvim.editor")
 require("ezvim.lazy")
 require("ezvim.config")
+require("ezvim.mapping")
 
 -- General/Global LSP Configuration
 local api = vim.api
@@ -20,3 +21,5 @@ function lsp.protocol.make_client_capabilities()
 
     return caps
 end
+
+vim.opt.laststatus = 3
