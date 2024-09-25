@@ -21,6 +21,7 @@ require("lazy").setup({
     },
 })
 
+require("ezvim.after.bufferline")
 require("ezvim.after.lspzero")
 require("ezvim.after.mason")
 require("ezvim.after.neotree")
