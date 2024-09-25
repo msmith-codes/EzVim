@@ -22,3 +22,6 @@ require("lazy").setup({
     },
 })
 
+-- Register Plugins:
+require("ezvim.after.telescope")
+require("ezvim.after.neotree")
