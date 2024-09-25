@@ -1,5 +1,4 @@
 local config = require("config")
-print("working")
 require("neo-tree").setup({
     filesystem = {
         filtered_items = {
