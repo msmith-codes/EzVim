@@ -1,6 +1,6 @@
 -- Enable Line Numbers:
 vim.opt.number = true
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
 
 -- Width of Tab:
 vim.opt.shiftwidth = 4

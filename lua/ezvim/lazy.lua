@@ -15,12 +15,14 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
+-- Load plugins from the plgugins folder.
 require("lazy").setup({
     spec = {
         { import = "ezvim.plugins" },
     },
 })
 
+-- Configure plugins after they are loaded
 require("ezvim.after.bufferline")
 require("ezvim.after.lspzero")
 require("ezvim.after.lualine")
