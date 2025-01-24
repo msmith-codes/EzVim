@@ -46,6 +46,8 @@ require('lspconfig').cmake.setup({
     filetypes = { "cmake", "CMakeLists.txt" }
 })
 
+require('lspconfig').pylsp.setup({})
+
 -- TypeScript
 require('lspconfig').ts_ls.setup({})
 
